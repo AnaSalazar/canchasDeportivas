@@ -8,15 +8,30 @@ botonTennis.addEventListener("click", mostrarCanchaTennis);
 
 function mostrarCanchaFut() {
    var futbol = document.getElementById("cancha1");
-   futbol.style.display = "block";
+
+   if(futbol.style.display == "block"){
+      futbol.style.display = "none";
+   }else{
+      futbol.style.display = "block";
+   }
+
 }
 
 function mostrarCanchaBasquet() {
    var basquet = document.getElementById("cancha2");
-   basquet.style.display = "block";
+   if(basquet.style.display == "block"){
+      basquet.style.display = "none";
+   }else{
+      basquet.style.display = "block";
+   }
 }
 
 function mostrarCanchaTennis() {
    var tennis = document.getElementById("cancha3");
-   tennis.style.display = "block";
+
+   if(tennis.style.display == "block"){
+      tennis.style.display = "none"
+   }else{
+     tennis.style.display = "block";
+   }
 }
