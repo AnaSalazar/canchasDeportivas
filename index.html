@@ -3,20 +3,42 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/canchaBasquet.css">
+    <link rel="stylesheet" href="assets/css/canchaTennis.css">
     <title>Canchas</title>
   </head>
   <body>
     <h1 >¿Qué cancha quieres ver?</h1>
-    <section id="botones" align="center">
-      <button type="button" className="boton">Futbol</button>
-      <button type="button" className="boton">Basquetbol</button>
-      <button type="button" className="boton">Tenis</button>
-      <hr>
+    <section id="areaBotones" align="center">
+      <button type="button" id="botonFut">Futbol</button>
+      <button type="button" id="botonBasquet">Basquetbol</button>
+      <button type="button" id="botonTennis">Tenis</button>
     </section>
-    <section>
-      <article class="cancha">
 
-      </article>
+    <section id="cancha2">
+      <section id="canchaBasquet">
+        <article class="trapecioFondo"></article>
+        <article class="trapecioFondo trapecioFondoDer"></article>
+        <article class="lineaCentral"></article>
+        <article class="circuloBasket"></article>
+        <article class="circuloBasket circuloBasketIzq"></article>
+        <article class="circuloBasket circuloBasketDer"></article>
+        <article class="semi-circulo semi-circuloBasket"></article>
+        <article class="semiS-circuloBasket"></article>
+        <article class="semi-circuloBasket semi-circuloBasketDer"></article>
+      </section>
+    </section>
+
+    <section id="cancha3">
+      <section id="tennis">
+         <article class="fondoCancha">
+         <article class="lineaSuperior"></article>
+         <article class="lineaSuperior lineaInferior"></article>
+         <article class="lineaDerecha"></article>
+         <article class="lineaDerecha lineaIzquierda"></article>
+         <article class="lineaDerecha lineaCentral "></article>
+         <article class="lineaSuperior lineaTransversal"></article>
+      </section>
     </section>
 
     <script src="assets/js/main.js">
