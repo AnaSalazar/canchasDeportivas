@@ -28,6 +28,14 @@
 	left: 435px;
 }
 
+.lineaCentro{
+  height: 300px;
+  border: 1px solid #FFFFFF;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 300px;
+}
+
 .circuloBasket {
 		width: 81px;
     height: 80px;

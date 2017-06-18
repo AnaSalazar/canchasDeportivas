@@ -14,7 +14,6 @@ function mostrarCanchaFut() {
    }else{
       futbol.style.display = "block";
    }
-
 }
 
 function mostrarCanchaBasquet() {

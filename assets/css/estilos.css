@@ -3,13 +3,9 @@ h1{
   color: purple;
   }
 
-*{
- 	margin: 0px;
- }
-
 #areaBotones {
-  	text-align: center;
-  	margin: 15px;
+	text-align: center;
+	margin: 15px;
   }
 
 button {
